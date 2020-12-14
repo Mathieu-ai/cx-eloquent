@@ -1,9 +1,9 @@
 function capitalize(str) {
-   var lowerSplitArr = str.toLowerCase().split(' ');
-   for (var i = 0; i < lowerSplitArr.length; i++) {
-      lowerSplitArr[i] = lowerSplitArr[i].charAt(0).toUpperCase() +
-      lowerSplitArr[i].substring(1);
+   var SplitArr = str.toLowerCase().split(' ');
+   for (var i = 0; i < SplitArr.length; i++) {
+      SplitArr[i] = SplitArr[i].charAt(0).toUpperCase() +
+      SplitArr[i].substring(1);
    }
-   return lowerSplitArr.join(' ');
+   return SplitArr.join(' ');
 }
 console.log(capitalize('hello world, my name is john snow'));
