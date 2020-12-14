@@ -1,3 +1,4 @@
+/*
 function longuestWord(str)
 {
   let array1 = str.match(/\w[a-z]{0,}/gi);
@@ -13,3 +14,9 @@ function longuestWord(str)
   return result;
 }
 console.log(longuestWord(' a lung disease caused by inhaling very fine ash and sand dust is pneumonoultramicroscopicsilicovolcanoconiosis'));
+*/
+let longuestWord = (str) => {
+    return str.split(' ').sort( (a, b) =>b.length - a.length)[0]
+}
+
+console.log(longuestWord('a lung disease caused by inhaling very fine ash and sand dust is pneumonoultramicroscopicsilicovolcanoconiosis'))
