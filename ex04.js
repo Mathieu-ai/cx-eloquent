@@ -1,5 +1,5 @@
-function reverse (x) {
-    x = x + "";
-    return x.split("").reverse().join("");
+let alphabetSorted = (str) => {
+    return str.split('').sort().join('');;
 }
-console.log(reverse('webmaster'))
+
+console.log(alphabetSorted('webmaster'));

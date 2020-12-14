@@ -6,4 +6,4 @@ function capitalize(str) {
    }
    return lowerSplitArr.join(' ');
 }
-console.log(capitalize('hello world, My name is John Snow'));
+console.log(capitalize('hello world, my name is john snow'));
