@@ -1,16 +1,22 @@
 function primeTest (n) {
     if (n === 1)
-    {return false;}
+    {
+        return false
+    }
 
     else if (n === 2)
-    {return true;} 
+    {
+        return true
+    } 
     else {
 
         for (var i = 0; i < n; i++)
-        { if (n % i === 0)
-            {return false;}
+        { 
+            if (n % i === 0)
+            {
+                return false
+            }
         }
-
         return true;
     }
 }

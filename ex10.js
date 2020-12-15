@@ -1,7 +1,5 @@
 function matrix(n) {
-    let x;
-    let y;
-
+    
     for (x=0; x < n; x++)
     {
       for (y=0; y < n; y++)
@@ -15,5 +13,5 @@ function matrix(n) {
             }
        }
    }
-   
+
 matrix(3);
