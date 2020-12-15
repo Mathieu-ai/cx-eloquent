@@ -22,6 +22,6 @@ function primeTest (n) {
 }
 
 console.log('2 is a prime number ? : ' + primeTest(2));
-console.log('37 is a prime number ? : ' +primeTest(37));
+console.log('22 is a prime number ? : ' +primeTest(22));
 
 
