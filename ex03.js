@@ -9,4 +9,4 @@ let combinator = (str) => {
     return stringArr;
 }
 
-console.log(combinator('dog'));
+console.log(combinator('gog'));
