@@ -13,4 +13,4 @@ function vowelCount(str)
   }
   return countVowel;
 }
-console.log(vowelCount("The quick brown fox"));
+console.log(vowelCount("The quick brown fox jumped"));
