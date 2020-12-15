@@ -19,4 +19,4 @@ let longuestWord = (str) => {
     return str.split(' ').sort( (a, b) =>b.length - a.length)[0]
 }
 
-console.log(longuestWord('a lung disease caused by inhaling very fine ash and sand dust is pneumonoultramicroscopicsilicovolcanoconiosis'))
+console.log(longuestWord('a lung disease caused by inhaling very fine ash and sand dust is pneumonoultramicroscopicsilicovolcanoconiosis !'))
