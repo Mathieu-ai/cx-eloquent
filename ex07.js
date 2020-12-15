@@ -1,7 +1,7 @@
 function vowelCount(str)
 {
-  var listVowel = 'The quick brown fox';
-  var countVowel = 0;
+  const listVowel = 'The quick brown fox';
+  let countVowel = 0;
   
   for(var x = 0; x < str.length ; x++)
   {
