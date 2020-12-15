@@ -14,4 +14,4 @@ function matrix(n) {
        }
    }
 
-matrix(3);
+matrix(4);
