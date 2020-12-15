@@ -14,4 +14,4 @@ function perfect(number)
 } 
  
 console.log("is 6 a perfect number ? : ") + perfect(6);
-console.log("is 666 a perfect number ? : ") + perfect(666);
+console.log("is 999 a perfect number ? : ") + perfect(999);
