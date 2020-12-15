@@ -4,9 +4,9 @@ function palindrome () {
     const reverseAgain = reverseArray.join('');
 
     if (string == reverseAgain) {
-        console.log('this is a palindrome');
+        console.log('this is a palindrome ヾ(｡^ω^｡)ノ');
 
-    } else {console.log("this isn't a palindrome")}
+    } else {console.log("this isn't a palindrome ヾ【*≧д≦】ノ")}
 
 }
 
